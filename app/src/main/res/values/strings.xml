@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">IN2000-Team41</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_metalerts">METvarsel</string>
+    <string name="title_brannvarsel">Skogbrannvarsel</string>
+    <string name="title_metvarsel">Værvarselsdetaljer</string>
+
+    <string name="google_api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAq1wq4xFxhY9jpdo0MjWT_Kb0fMhneWFU</string>
+
+    <string name="autocomplete_api_key">AIzaSyB_qxWIZGXFhc2xsTRZvGrJ2494EqgI7XA</string>
+
+    <string name="skogbrannvarsel" translatable="false">Skogbrannvarsler 🔥</string>
+    <string name="flervalg">flervalg</string>
+    <string name="skogbrann">Skogbrann</string>
+    <string name="v_r">vær</string>
+    <string name="menu">menu</string>
+    <string name="filtere_sortere">filtere/sortere</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beskrivelse">Beskrivelse</string>
+    <string name="instruksjon">Instruksjon</string>
+    <string name="konsekvenser">Konsekvenser</string>
+    <string name="alvorlighetsgrad">Alvorlighetsgrad</string>
+    <string name="fareniv">Farenivå</string>
+    <string name="sannsynlighet">Sannsynlighet</string>
+    <string name="fare">Fare</string>
+    <string name="til">Til</string>
+    <string name="fra">Fra</string>
+    <string name="search_title">search_title</string>
+    <string name="vis_steder_uten_skogbrannfare">Vis steder uten skogbrannfare</string>
+    <string name="sortere_farevarslene">Sortere farevarslene</string>
+    <string name="synkende_fareniv">Synkende farenivå</string>
+    <string name="filtrere_farevarslene">Filtrere farevarslene</string>
+    <string name="alle">Alle</string>
+    <string name="gult">Gult</string>
+    <string name="oransje">Oransje</string>
+    <string name="r_dt">Rødt</string>
+    <string name="skogbrannvarsler">Skogbrannvarsler</string>
+    <string name="v_rvarsler">Værvarsler</string>
+    <string name="n_rmest_min_posisjon">Nærmest min posisjon</string>
+    <string name="stigende_fareniv">Stigende farenivå</string>
+    <string name="alfabetisk_rekkef_lge">Alfabetisk rekkefølge</string>
+    <string name="i_dag">I dag</string>
+    <string name="i_morgen">I morgen</string>
+    <string name="_2_dager">2 dager</string>
+    <string name="x_km_unna">X km unna</string>
+    <string name="mer">MER +</string>
+    <string name="v_rvarsel">Værvarsel</string>
+    <string name="sommer">Sommer</string>
+    <string name="vinter">Vinter</string>
+    <string name="kart">Kart</string>
+    <string name="viewAlertsOnMap">Se farevarsler på kart</string>
+    <string name="good_day">God dag</string>
+    <string name="home">Hjem</string>
+    <string name="hav">Hav</string>
+    <string name="snoskredvarsler">Snøskredvarsler</string>
+    <string name="havfarevarsler">Havfarevarsler</string>
+    <string name="V_r">Vær</string>
+    <string name="flomvarsel">Flomvarsel</string>
+    <string name="jordskredvarsel">Jordskredvarsel</string>
+    <string name="s_k_etter_sted">Søk etter sted</string>
+    <string name="v_rfarevarsler">Værfarevarsler</string>
+    <string name="data_om_havet">Data om havet</string>
+    <string name="havdata">Havdata</string>
+    <string name="meget_stor_fare">Meget stor fare</string>
+    <string name="stor_fare">Stor fare</string>
+    <string name="betydelig_fare">Betydelig fare</string>
+    <string name="moderat_fare">Moderat fare</string>
+    <string name="liten_fare">Liten fare</string>
+    <string name="ukjent">Ukjent</string>
+    <string name="h_yde_p_b_lger">Høyde på bølger</string>
+    <string name="temperatur_i_havet">Temperatur i havet</string>
+    <string name="hastighet_havvann">Hastighet havvann</string>
+    <string name="temp">Temp</string>
+    <string name="nedb_r">Nedbør: mm</string>
+    <string name="vind">Vind: m/s</string>
+    <string name="hva_vil_du_se">Hva vil du se?</string>
+    <string name="v_r_og_farevarsler">Vær og farevarsler</string>
+    <string name="havvarsler">Havvarsler</string>
+    <string name="trykk_p_s_kefeltet">Trykk på søkefeltet</string>
+    <string name="trykk_p_s_kefeltet_og_velg_sted_for_se_v_rvarsel">Trykk på søkefeltet og velg sted for å se værvarsel</string>
+    <string name="bruk_s_keknappen_oppe_i_hj_rnet_for_sjekke_spesifikke_steder">Bruk søkeknappen oppe i hjørnet for å sjekke spesifikke steder</string>
+    <string name="minimal_fare">Minimal fare</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="farenivaa_">Farenivå:</string>
+    <string name="bruk_knappen_nederest_i_hj_rnet_for_sortere_farevarslene">Bruk knappen nederest i hjørnet for å sortere farevarslene</string>
+    <string name="bruk_knappen_nederest_for_filtrere_sortere_skogbrannvarslene">Bruk knappen nederest for å filtrere/sortere skogbrannnvarslene</string>
+    <string name="_1_liten_fare">1 - Liten fare</string>
+    <string name="_2_moderat_fare">2 - Moderat fare</string>
+    <string name="_3_betydelig_fare">3 - Betydelig fare</string>
+    <string name="_4_stor_fare">4 - Stor fare</string>
+    <string name="_5_meget_stor_fare">5 - Meget stor fare</string>
+    <string name="hjelp">Hjelp</string>
+    <string name="generell_oversikt">Generell oversikt</string>
+    <string name="vis_p_kart">Vis på kart</string>
+    <string name="generell_oversikt_v_rfarevarsler">Generell oversikt (værfarevarsler)</string>
+    <string name="farevarsler_oversikt">Farevarsler - oversikt</string>
+    <string name="sn_skred">Snøskred</string>
+    <string name="farevarsler">Farevarsler</string>
+    <string name="p_farevarselsiden_bruk_knappen_nederst_i_hj_rnet_til_sortere_farevarslene">På farevarselsiden: Bruk knappen nederst i hjørnet til å sortere farevarslene</string>
+
+    <string name="hva_trenger_du_hjelp_med">Hva trenger du hjelp med?</string>
+    <string name="hjelp_farevarsler">Hjelp - farevarsler</string>
+    <string name="hjelp_skogbrannvarsler">Hjelp - skogbrannvarsler</string>
+    <string name="trykk_p_sp_rsm_lstegnet_nede_i_hj_rnet_for_mer_deltajert_forklaring">Trykk på spørsmålstegnet nede i hjørnet for mer deltajert forklaring</string>
+    <string name="fareniv_0_til_5">Farenivå - 0 til 5</string>
+    <string name="trykk_for_sp_rsm_lstegnet_nederst_i_hj_rnet_for_forklaringer">Trykk for spørsmålstegnet nederst i hjørnet for forklaringer</string>
+    <string name="laster">Laster inn...</string>
+    <string name="nettverksproblemer_sjekk_tilkoblingen_din_og_start_appen_p_nytt">Nettverksproblemer - sjekk tilkoblingen din og start appen på nytt</string>
+    <string name="varsler">Varsler</string>
+
+
+    <string-array name="metalerts_sort">
+        <item>Sorter etter: </item>
+
+        <item>Alfabetisk rekkefølge</item>
+        <item>Nærmest min posisjon</item>
+        <item>Synkende farenivå</item>
+        <item>Stigende farenivå</item>
+    </string-array>
+
+    <string-array name="forestfire_sort">
+        <item>Sorter etter: </item>
+
+        <item>Alfabetisk rekkefølge</item>
+        <item>Synkende farenivå</item>
+        <item>Stigende farenivå</item>
+    </string-array>
+
+    <string-array name="avalanche_sort">
+        <item>Sorter etter: </item>
+
+        <item>Alfabetisk rekkefølge</item>
+        <item>Synkende farenivå</item>
+        <item>Stigende farenivå</item>
+    </string-array>
+
+    <string name="varsler_tilleggsmeny">Varsler - tilleggsmeny</string>
+    <string name="din_posisjon">Din posisjon</string>
+    <string name="skogbrann_st_rst_fare">Skogbrann - størst fare</string>
+    <string name="sn_skred_st_rst_fare">Snøskred - størst fare</string>
+    <string name="aktiv_posisjon">Aktiv posisjon</string>
+    <string name="unknown">Ukjent</string>
+    <string name="prosjekt_in2000_team41">Prosjekt IN2000 - Team41</string>
+    <string name="akutelle_varsler_for_din_posisjon">Akutelle varsler for din posisjon</string>
+    <string name="hjemside">Hjemside</string>
+    <string name="hopp_over_veiledning"><u>Hopp over veiledning</u></string>
+    <string name="se_forskjellige_varsler">Se forskjellige varsler</string>
+    <string name="tilleggsmeny">Tilleggsmeny</string>
+    <string name="oversikt_over_farevarsler">Oversikt over farevarsler</string>
+    <string name="til_hjemsiden"><u>Til hjemsiden</u></string>
+    <string name="v_ret_i_dag">Været i dag</string>
+    <string name="min_posisjon">Min posisjon</string>
+    <string name="varsel_for_min_posisjon">Varsel for min posisjon</string>
+    <string name="search_for_weatherforecast">Søk etter værvarsel</string>
+    <string name="search_for_ocean">Søk etter havvarsler</string>
+    <string name="introduksjon">Introduksjon</string>
+    <string name="nextguide_button">nextGuide_button</string>
+    <string name="line">line</string>
+    <string name="question">question</string>
+    <string name="prev_guide_button">prev_guide_button</string>
+    <string name="warnings_image">warnings_image</string>
+    <string name="homepage_image">homepage_image</string>
+    <string name="map_image">map_image</string>
+    <string name="om_2_dager">Om 2 dager</string>
+</resources>

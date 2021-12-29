@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_navigation_menu"
+    >
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/action_home_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_warnings"
+        android:icon="@drawable/weather_warning"
+        android:title="@string/varsler" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/kart" />
+</menu>

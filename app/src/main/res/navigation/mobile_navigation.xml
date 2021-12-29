@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_guide1"
+        android:name="com.example.in2000_team41.ui.guides.Guide1Fragment"
+        tools:layout="@layout/fragment_guide1">
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_guide2"
+        android:name="com.example.in2000_team41.ui.guides.Guide2Fragment"
+        tools:layout="@layout/fragment_guide2">
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_guide3"
+        android:name="com.example.in2000_team41.ui.guides.Guide3Fragment"
+        tools:layout="@layout/fragment_guide3">
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.in2000_team41.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_BottomSheetAvalanchesearch"
+            app:destination="@id/bottomSheet_Avalanchesearch" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_warnings"
+        android:name="com.example.in2000_team41.ui.WarningsFragment"
+        tools:layout="@layout/fragment_warnings">
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/navigation_weather"
+        android:name="com.example.in2000_team41.ui.weather.WeatherFragment"
+        tools:layout="@layout/fragment_weather">
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/navigation_weatherAlerts"
+        android:name="com.example.in2000_team41.ui.metalerts.MetAlertsFragment"
+        tools:layout="@layout/fragment_metalerts">
+        <action
+            android:id="@+id/action_MetAlertsFragment_to_BottomSheetMetAlertsInfo"
+            app:destination="@+id/bottomSheet_MetAlertsInfo"/>
+        <action
+            android:id="@+id/action_navigation_home_to_alertDetailFragment2"
+            app:destination="@id/alertDetailFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheet_MetAlertsInfo"
+        android:name="com.example.in2000_team41.ui.metalerts.BottomSheetMetAlertsInfo"
+        android:label="Bottom Sheet"
+        tools:layout="@layout/bottom_sheet_metalertsinfo">
+        <action
+            android:id="@+id/action_BottomSheetMetAlertsInfo_to_MetAlertsFragment"
+            app:destination="@id/navigation_weatherAlerts"/>
+    </dialog>
+
+    <fragment
+        android:id="@+id/alertDetailFragment"
+        android:name="com.example.in2000_team41.ui.alertdetail.AlertDetailFragment"
+        tools:layout="@layout/fragment_alert_detail" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_forestfire"
+        android:name="com.example.in2000_team41.ui.forestfire.ForestfireFragment"
+        tools:layout="@layout/fragment_forestfire">
+        <action
+            android:id="@+id/action_ForestfireFragment_to_BottomSheetForestfireInfo"
+            app:destination="@id/bottomSheet_ForestfireInfo" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheet_ForestfireInfo"
+        android:name="com.example.in2000_team41.ui.forestfire.BottomSheetForestfireInfo"
+        android:label="Bottom Sheet"
+        tools:layout="@layout/bottom_sheet_forestfireinfo">
+        <action
+            android:id="@+id/action_BottomSheetForestfireInfo_to_ForestfireFragment"
+            app:destination="@id/navigation_forestfire"/>
+    </dialog>
+
+
+
+    <fragment
+        android:id="@+id/navigation_winter"
+        android:name="com.example.in2000_team41.ui.winter.WinterFragment"
+        tools:layout="@layout/fragment_winter">
+        <action
+            android:id="@+id/action_WinterFragment_to_BottomSheetAvalancheinfo"
+            app:destination="@+id/bottomSheet_Avalancheinfo"/>
+        <action
+            android:id="@+id/action_WinterFragment_to_BottomSheetAvalanchesearch"
+            app:destination="@+id/bottomSheet_Avalanchesearch"/>
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheet_Avalancheinfo"
+        android:name="com.example.in2000_team41.ui.winter.BottomSheetAvalancheInfo"
+        android:label="Bottom Sheet"
+        tools:layout="@layout/bottom_sheet_avalancheinfo">
+        <action
+            android:id="@+id/action_BottomSheetAvalancheinfo_to_WinterFragment"
+            app:destination="@id/navigation_winter"/>
+    </dialog>
+    <dialog
+        android:id="@+id/bottomSheet_Avalanchesearch"
+        android:name="com.example.in2000_team41.ui.winter.BottomSheetAvalancheSearch"
+        android:label="Bottom Sheet"
+        tools:layout="@layout/bottom_sheet_avalanchesearch">
+        <action
+            android:id="@+id/action_BottomSheetAvalanchesearch_to_WinterFragment"
+            app:destination="@id/navigation_winter"/>
+    </dialog>
+
+
+    
+    <fragment
+        android:id="@+id/navigation_ocean"
+        android:name="com.example.in2000_team41.ui.ocean.OceanFragment"
+        tools:layout="@layout/fragment_ocean">
+        <action
+            android:id="@+id/action_OceanFragment_to_BottomSheetOceaninfo"
+            app:destination="@+id/bottomSheet_Oceaninfo"/>
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheet_Oceaninfo"
+        android:name="com.example.in2000_team41.ui.ocean.BottomSheetOceanInfo"
+        android:label="Bottom Sheet"
+        tools:layout="@layout/bottom_sheet_oceaninfo">
+        <action
+            android:id="@+id/action_BottomSheetOceaninfo_to_OceanFragment"
+            app:destination="@id/navigation_ocean"/>
+    </dialog>
+
+
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.in2000_team41.ui.map.MapFragment"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_navigation_map_to_alertDetailFragmentMap"
+            app:destination="@id/alertDetailFragmentMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertDetailFragmentMap"
+        android:name="com.example.in2000_team41.ui.alertdetail.AlertDetailFragmentMap"
+        tools:layout="@layout/fragment_alert_detail_map" />
+
+
+</navigation>
